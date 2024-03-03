@@ -17,22 +17,22 @@ public class PlayerMovement : MonoBehaviour
 
     public LayerMask groundMask;
 
-    [Header("Audio")]
-    public AudioSource audioSource;
-    public AudioClip[] footsteps;
-
     [Header("Important Variables")]
     public bool _CanMove = true;
 
+    [Header("FX")]
+    public GameObject jumpDust;
+
     [Header("References")]
+    public Animator animator;
     public Transform groundPos;
 
     [Header("Private")]
     bool isJumping;
     bool isGrounded;
+    bool previousGroundedState;
     Vector2 moveInput;
     Rigidbody2D rb;
-    Animator animator;
 
     float coyoteTimer;
 
@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
 
         rb.gravityScale = defaultGravity;
     }
@@ -50,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!_CanMove) return;
 
+        previousGroundedState = isGrounded;
         isGrounded = Physics2D.OverlapBox(groundPos.position, new Vector2(1f,.1f), 0f, groundMask); //Checks if player is grounded
 
         if(isGrounded)
@@ -60,6 +60,14 @@ public class PlayerMovement : MonoBehaviour
         {
             coyoteTimer -= Time.deltaTime;
             rb.gravityScale = airGravity;
+        }
+
+        if(coyoteTimer > 0 || isGrounded)
+        {
+            animator.SetBool("CanJump", true);
+        } else
+        {
+            animator.SetBool("CanJump", false);
         }
 
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")); //Gets input and stores it
@@ -75,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector2.down * rb.velocity.y * (1 - jumpCutMultipier), ForceMode2D.Impulse);
             isJumping = false;
+            animator.ResetTrigger("Jump");
         }
 
         #region Flip Player
@@ -90,6 +99,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", rb.velocity.magnitude);
         animator.SetBool("IsGrounded", isGrounded);
+        animator.SetBool("PreviousGrounded", previousGroundedState);
 
     }
 
@@ -102,11 +112,17 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
+        StartCoroutine(SpawnDust());
+
         animator.SetTrigger("Jump");
     }
 
-    public void PlayFootstepSound()
+
+    IEnumerator SpawnDust()
     {
-        audioSource.PlayOneShot(footsteps[Random.Range(0, footsteps.Length)]);
+        GameObject obj = Instantiate(jumpDust, groundPos.position, Quaternion.identity);
+        yield return new WaitForSeconds(.1f);
+        Destroy(obj);
     }
 }
