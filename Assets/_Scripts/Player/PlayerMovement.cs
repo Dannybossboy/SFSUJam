@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("FX")]
     public GameObject jumpDust;
+    public GameObject jumpDustMove;
 
     [Header("References")]
     public Animator animator;
@@ -113,16 +114,18 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 
-        StartCoroutine(SpawnDust());
+        
 
         animator.SetTrigger("Jump");
-    }
 
-
-    IEnumerator SpawnDust()
-    {
-        GameObject obj = Instantiate(jumpDust, groundPos.position, Quaternion.identity);
-        yield return new WaitForSeconds(.1f);
-        Destroy(obj);
+        if(moveInput.x != 0)
+        {
+           GameObject obj = Instantiate(jumpDustMove, groundPos.position, Quaternion.identity);
+            obj.transform.localScale = transform.localScale;
+        } else
+        {
+            Instantiate(jumpDust, groundPos.position, Quaternion.identity);
+        }
+        
     }
 }

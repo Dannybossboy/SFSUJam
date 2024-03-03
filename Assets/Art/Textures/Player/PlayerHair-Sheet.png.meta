@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5239380a6aef6b947b2804975b388b82
+guid: 6aa14c17219003e4e9d21e4171a73c35
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,64 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunJumpDust-Sheet_0
+      name: PlayerHair-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 8
         height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba9db728430e314b97e261cdfba47a6
-      internalID: 1963028052
+      spriteID: 0750053600c18de459ad7adff1d2ebc6
+      internalID: -1923042882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunJumpDust-Sheet_1
+      name: PlayerHair-Sheet_1
       rect:
         serializedVersion: 2
         x: 8
         y: 0
         width: 8
         height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 531e1a175e0f41048b6284a9b9644f88
-      internalID: 148738007
+      spriteID: 90a9f503d433c734696ffaa61d68a5d1
+      internalID: 2083808423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunJumpDust-Sheet_2
+      name: PlayerHair-Sheet_2
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 8
         height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b75e7a71a7ec580469d5903c96ffece8
-      internalID: -921655870
+      spriteID: 6799016e9ce1eb844b6ce454f3af5309
+      internalID: 380862796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHair-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fe976ef923b1a4a83cb92ba27d011c
+      internalID: 1869842043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHair-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2d2786d480e5149884b3a85dc0c307
+      internalID: 1456306438
       vertices: []
       indices: 
       edges: []
@@ -183,9 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RunJumpDust-Sheet_0: 1963028052
-      RunJumpDust-Sheet_1: 148738007
-      RunJumpDust-Sheet_2: -921655870
+      PlayerHair-Sheet_0: -1923042882
+      PlayerHair-Sheet_1: 2083808423
+      PlayerHair-Sheet_2: 380862796
+      PlayerHair-Sheet_3: 1869842043
+      PlayerHair-Sheet_4: 1456306438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

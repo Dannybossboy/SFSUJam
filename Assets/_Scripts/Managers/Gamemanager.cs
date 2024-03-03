@@ -7,6 +7,7 @@ public class Gamemanager : MonoBehaviour
     public static Gamemanager instance;
 
     [Header("References")]
+    public MapHolder mapHolder;
     public Transform levelSpawn;
 
     public PlayerMovement player;

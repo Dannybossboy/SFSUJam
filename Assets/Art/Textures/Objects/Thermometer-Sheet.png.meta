@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5239380a6aef6b947b2804975b388b82
+guid: 21908e5a6e8d8e542928e60d6460f62f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,64 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunJumpDust-Sheet_0
+      name: Thermometer-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba9db728430e314b97e261cdfba47a6
-      internalID: 1963028052
+      spriteID: 4d1b06406155d98468da736f69bb1c0a
+      internalID: -68835414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunJumpDust-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 531e1a175e0f41048b6284a9b9644f88
-      internalID: 148738007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RunJumpDust-Sheet_2
+      name: Thermometer-Sheet_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b75e7a71a7ec580469d5903c96ffece8
-      internalID: -921655870
+      spriteID: eb3225baa57b42d4ea71da7939b23115
+      internalID: 1175482729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thermometer-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6a44d88549b19449b9c8779fc63c3d
+      internalID: -1036509136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thermometer-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddd2ffa5aeb2d2438c30b79c4ee4549
+      internalID: 1357642546
       vertices: []
       indices: 
       edges: []
@@ -183,9 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RunJumpDust-Sheet_0: 1963028052
-      RunJumpDust-Sheet_1: 148738007
-      RunJumpDust-Sheet_2: -921655870
+      Thermometer-Sheet_0: -68835414
+      Thermometer-Sheet_1: 1175482729
+      Thermometer-Sheet_2: -1036509136
+      Thermometer-Sheet_3: 1357642546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
