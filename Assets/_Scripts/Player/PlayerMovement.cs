@@ -21,11 +21,19 @@ public class PlayerMovement : MonoBehaviour
     public bool _CanMove = true;
     public bool _InWater = false;
 
+    [Header("Audio")]
+    public AudioSource source;
+    public AudioClip waterSound;
+    public AudioClip waterJumpSound;
+
     [Header("FX")]
+    public Color waterColor;
     public GameObject jumpDust;
     public GameObject jumpDustMove;
 
     [Header("References")]
+    public SpriteRenderer sr;
+    public GameObject bubbles;
     public Animator animator;
     public Transform groundPos;
 
@@ -35,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
     bool canMoveInWater = true;
     bool isGrounded;
     bool previousGroundedState;
+    float waterMultiplier;
     Vector2 moveInput;
     Rigidbody2D rb;
 
@@ -127,8 +136,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && canWaterJump)
         {
             canMoveInWater = false;
+            rb.gravityScale = 0f;
             rb.AddForce(moveInput * jumpForce, ForceMode2D.Impulse);
+            source.PlayOneShot(waterJumpSound, .25f);
 
+            bubbles.SetActive(true);
             canWaterJump = false;
             Invoke("ResetWaterJump", .5f);
             Invoke("ResetWaterMove", .5f);
@@ -159,7 +171,7 @@ public class PlayerMovement : MonoBehaviour
         if(moveInput.x != 0)
         {
            GameObject obj = Instantiate(jumpDustMove, groundPos.position, Quaternion.identity);
-            obj.transform.localScale = transform.localScale;
+           obj.transform.localScale = transform.localScale;
         } else
         {
             Instantiate(jumpDust, groundPos.position, Quaternion.identity);
@@ -167,9 +179,36 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    public void SetWater(bool inWater)
+    {
+        if(inWater)
+        {
+            _InWater = true;
+            sr.color = waterColor;
+            source.PlayOneShot(waterSound);
+            animator.SetBool("IsGrounded", false);
+            animator.SetBool("CanJump", false);
+        } else
+        {
+            _InWater = false;
+            sr.color = Color.white;
+            source.PlayOneShot(waterSound);
+        }
+    }
+
+    public void ResetMovement()
+    {
+        _CanMove = false;
+        rb.velocity = Vector2.zero;
+        isGrounded = true;
+        animator.SetFloat("Speed", 0f);
+    }
+
     private void ResetWaterJump()
     {
         canWaterJump = true;
+        bubbles.SetActive(false);
+        rb.gravityScale = 1f;
     }
     private void ResetWaterMove()
     {

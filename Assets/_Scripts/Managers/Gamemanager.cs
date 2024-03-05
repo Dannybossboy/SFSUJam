@@ -15,6 +15,9 @@ public class Gamemanager : MonoBehaviour
     [Header("Private")]
     public Vector3 lastCheckPoint;
 
+    public myDelegate GlobalSwitch;
+    public delegate void myDelegate();
+
     private void Awake() //Sets the global static variable
     {
         if(instance == null)

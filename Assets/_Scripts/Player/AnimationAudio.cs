@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimationAudio : MonoBehaviour
 {
@@ -29,5 +30,10 @@ public class AnimationAudio : MonoBehaviour
     public void Jump()
     {
         source.PlayOneShot(jump);
+    }
+
+    public void FinishGame()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

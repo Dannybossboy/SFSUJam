@@ -1,0 +1,1511 @@
+fileFormatVersion: 2
+guid: 487f9cfd5b4509c42ba1bb0c6333d4ec
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: PlayerMad_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 10
+      height: 24
+    spriteID: 00accf2abd451c94880105d2cedec7d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: PlayerMad_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 100
+      width: 10
+      height: 23
+    spriteID: f93a0f99275642340a5455a2dc2faf27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 100}
+  - name: PlayerMad_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 131
+      width: 10
+      height: 23
+    spriteID: b5c0da77d07904a47aebec68273ee225
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 131}
+  - name: PlayerMad_Frame_3
+    originalName: 
+    pivot: {x: 0.4166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 12
+      height: 23
+    spriteID: 49099cd6caa6b2349ad3995717b06036
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+  - name: PlayerMad_Frame_4
+    originalName: 
+    pivot: {x: 0.4166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 67
+      width: 12
+      height: 23
+    spriteID: da7cff40edc99f242ad58b95c54f477f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 67}
+  - name: PlayerMad_Frame_5
+    originalName: 
+    pivot: {x: 0.4166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 162
+      width: 12
+      height: 22
+    spriteID: 58e416a48c2410943a5bfa5ee188f5d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 162}
+  - name: PlayerMad_Frame_6
+    originalName: 
+    pivot: {x: 0.4166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 98
+      width: 12
+      height: 23
+    spriteID: 392b733f85ebe714bb5416059dfcfe8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 98}
+  - name: PlayerMad_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 4
+      width: 10
+      height: 24
+    spriteID: f95b8350d9a10c5449aedd0479d9e8d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 4}
+  - name: PlayerMad_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 36
+      width: 10
+      height: 24
+    spriteID: 795e09e1ce2c12042a0be22372246961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 36}
+  - name: PlayerMad_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 68
+      width: 10
+      height: 24
+    spriteID: a64473a01eede0e4a941ec7bd984b555
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 68}
+  - name: PlayerMad_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 100
+      width: 10
+      height: 24
+    spriteID: 5472967538197af42a800686a6e4af7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 100}
+  - name: PlayerMad_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 132
+      width: 10
+      height: 24
+    spriteID: 93b7992d79fef7f40b148c180fdf287f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 132}
+  - name: PlayerMad_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 164
+      width: 10
+      height: 24
+    spriteID: 8478e6882c270924ca448da5e2471124
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 164}
+  - name: PlayerMad_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 196
+      width: 10
+      height: 24
+    spriteID: 87a503a03094d5d449308d1c45c14ba1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 196}
+  - name: PlayerMad_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 228
+      width: 10
+      height: 24
+    spriteID: 2ee8fbb5999e8f540843e12bf6e6ecae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 228}
+  - name: PlayerMad_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 10
+      height: 24
+    spriteID: f1c2ba0209a0768479533ff3bc1cd468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: PlayerMad_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 36
+      width: 10
+      height: 24
+    spriteID: aa6c010c72ca8c346965dc626e9a994b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 36}
+  - name: PlayerMad_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 68
+      width: 10
+      height: 24
+    spriteID: 50bef0e5628bb744fbf867a15b7dcf4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 68}
+  - name: PlayerMad_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 100
+      width: 10
+      height: 24
+    spriteID: 7f8736c61ad357548856cea8fc377e7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 100}
+  - name: PlayerMad_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 132
+      width: 10
+      height: 24
+    spriteID: 821654a1b7de73a4098363c0d4ce082a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 132}
+  - name: PlayerMad_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 164
+      width: 10
+      height: 24
+    spriteID: 6427c037bcb593443aa979118c519d40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 164}
+  - name: PlayerMad_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 196
+      width: 10
+      height: 24
+    spriteID: f239fc217786fad40840567f95302c12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 196}
+  - name: PlayerMad_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 228
+      width: 10
+      height: 24
+    spriteID: 580c9ac87c5df044a872852e595d6857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 228}
+  - name: PlayerMad_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 10
+      height: 24
+    spriteID: 8c917ee4e6a0ffd448000b7ad18cf776
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  - name: PlayerMad_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 36
+      width: 10
+      height: 24
+    spriteID: 3a5f0e63d2a995a40bea3694465473bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 36}
+  - name: PlayerMad_Frame_25
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 68
+      width: 10
+      height: 24
+    spriteID: 640ef9a118de7794aa93711731d8b758
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 68}
+  - name: PlayerMad_Frame_26
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 100
+      width: 10
+      height: 24
+    spriteID: 520c117a5e28d894fac98f58b9068998
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 100}
+  - name: PlayerMad_Frame_27
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 132
+      width: 10
+      height: 24
+    spriteID: 1abf6e8d7f059274cbf1b739bf1fbf44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 132}
+  - name: PlayerMad_Frame_28
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 164
+      width: 10
+      height: 24
+    spriteID: 540f298bc2048f64bbf00c8217e16fcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 164}
+  - name: PlayerMad_Frame_29
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 196
+      width: 10
+      height: 24
+    spriteID: ce2692fa8612b0246ab5b4da4dfb8e75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 196}
+  - name: PlayerMad_Frame_30
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 228
+      width: 10
+      height: 24
+    spriteID: 863eca7808954fd459d4af764e550931
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 228}
+  - name: PlayerMad_Frame_31
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 4
+      width: 10
+      height: 24
+    spriteID: a7d35458cce5def4487fde0b8c182d22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 4}
+  - name: PlayerMad_Frame_32
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 36
+      width: 10
+      height: 24
+    spriteID: 8fbc61f498290dd4bb9e3597506064b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 36}
+  - name: PlayerMad_Frame_33
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 68
+      width: 10
+      height: 24
+    spriteID: 12224a63fbe4abd46b458eee7edade53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 68}
+  - name: PlayerMad_Frame_34
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 100
+      width: 10
+      height: 24
+    spriteID: 91ee0f788452f7b4e9e260be5b3f9b23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 100}
+  - name: PlayerMad_Frame_35
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 132
+      width: 10
+      height: 24
+    spriteID: 8f5a80e4ef0947447a8ea66b9240099d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 132}
+  - name: PlayerMad_Frame_36
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 164
+      width: 10
+      height: 24
+    spriteID: 7669f8ae5385a424ca780942069f9c79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 164}
+  - name: PlayerMad_Frame_37
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 196
+      width: 10
+      height: 24
+    spriteID: acc4a4dc9dd036b4d808be4be31adb5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 196}
+  - name: PlayerMad_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 12
+      height: 24
+    spriteID: 90f748fa58191034db87d2bf796f164e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: PlayerMad_Frame_39
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 228
+      width: 10
+      height: 24
+    spriteID: 44c66c996b4a01b4ca4b1e24f28b080c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 228}
+  - name: PlayerMad_Frame_40
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 4
+      width: 10
+      height: 24
+    spriteID: 783ee9bffd5b47e4c953de759c7685e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 4}
+  - name: PlayerMad_Frame_41
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 11
+      height: 24
+    spriteID: 0a99a5883c75a0d4eaf27b8dd10773e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
+  - name: PlayerMad_Frame_42
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 129
+      width: 11
+      height: 25
+    spriteID: 9b5cf1b3ac0e0a440a6f2480ae6b500f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 129}
+  - name: PlayerMad_Frame_43
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 162
+      width: 9
+      height: 25
+    spriteID: 6393033f5144207409584d30f0d6ad98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 162}
+  - name: PlayerMad_Frame_44
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 195
+      width: 9
+      height: 25
+    spriteID: 0ae0213919294d54a8fc14f6efc4c20e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 195}
+  - name: PlayerMad_Frame_45
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 228
+      width: 9
+      height: 24
+    spriteID: 1c069b6d3ea0be84d82616f20a45b6f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 228}
+  - name: PlayerMad_Frame_46
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 9
+      height: 24
+    spriteID: 410d4a99a7f3a8d4296a6aa56eb70f96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: PlayerMad_Frame_47
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 36
+      width: 10
+      height: 24
+    spriteID: 93ba56dc9c0b5cf46aeea080daad3489
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 36}
+  - name: PlayerMad_Frame_48
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 68
+      width: 10
+      height: 24
+    spriteID: fb6cdd0c95238584c91c4979c01ccc54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 68}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1533126619
+    name: PlayerMad
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: PlayerMad_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 00accf2abd451c94880105d2cedec7d3
+    - name: PlayerMad_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 23
+      spriteId: f93a0f99275642340a5455a2dc2faf27
+    - name: PlayerMad_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 23
+      spriteId: b5c0da77d07904a47aebec68273ee225
+    - name: PlayerMad_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 0
+        width: 12
+        height: 23
+      spriteId: 49099cd6caa6b2349ad3995717b06036
+    - name: PlayerMad_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 0
+        width: 12
+        height: 23
+      spriteId: da7cff40edc99f242ad58b95c54f477f
+    - name: PlayerMad_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 0
+        width: 12
+        height: 22
+      spriteId: 58e416a48c2410943a5bfa5ee188f5d2
+    - name: PlayerMad_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 0
+        width: 12
+        height: 23
+      spriteId: 392b733f85ebe714bb5416059dfcfe8c
+    - name: PlayerMad_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: f95b8350d9a10c5449aedd0479d9e8d4
+    - name: PlayerMad_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 795e09e1ce2c12042a0be22372246961
+    - name: PlayerMad_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: a64473a01eede0e4a941ec7bd984b555
+    - name: PlayerMad_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 5472967538197af42a800686a6e4af7d
+    - name: PlayerMad_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 93b7992d79fef7f40b148c180fdf287f
+    - name: PlayerMad_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 8478e6882c270924ca448da5e2471124
+    - name: PlayerMad_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 87a503a03094d5d449308d1c45c14ba1
+    - name: PlayerMad_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 2ee8fbb5999e8f540843e12bf6e6ecae
+    - name: PlayerMad_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: f1c2ba0209a0768479533ff3bc1cd468
+    - name: PlayerMad_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: aa6c010c72ca8c346965dc626e9a994b
+    - name: PlayerMad_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 50bef0e5628bb744fbf867a15b7dcf4c
+    - name: PlayerMad_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 7f8736c61ad357548856cea8fc377e7a
+    - name: PlayerMad_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 821654a1b7de73a4098363c0d4ce082a
+    - name: PlayerMad_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 6427c037bcb593443aa979118c519d40
+    - name: PlayerMad_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: f239fc217786fad40840567f95302c12
+    - name: PlayerMad_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 580c9ac87c5df044a872852e595d6857
+    - name: PlayerMad_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 8c917ee4e6a0ffd448000b7ad18cf776
+    - name: PlayerMad_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 11
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 3a5f0e63d2a995a40bea3694465473bc
+    - name: PlayerMad_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 640ef9a118de7794aa93711731d8b758
+    - name: PlayerMad_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 520c117a5e28d894fac98f58b9068998
+    - name: PlayerMad_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 1abf6e8d7f059274cbf1b739bf1fbf44
+    - name: PlayerMad_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 540f298bc2048f64bbf00c8217e16fcd
+    - name: PlayerMad_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: ce2692fa8612b0246ab5b4da4dfb8e75
+    - name: PlayerMad_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 863eca7808954fd459d4af764e550931
+    - name: PlayerMad_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: a7d35458cce5def4487fde0b8c182d22
+    - name: PlayerMad_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 8fbc61f498290dd4bb9e3597506064b8
+    - name: PlayerMad_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 12224a63fbe4abd46b458eee7edade53
+    - name: PlayerMad_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 91ee0f788452f7b4e9e260be5b3f9b23
+    - name: PlayerMad_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 8f5a80e4ef0947447a8ea66b9240099d
+    - name: PlayerMad_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 7669f8ae5385a424ca780942069f9c79
+    - name: PlayerMad_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: acc4a4dc9dd036b4d808be4be31adb5e
+    - name: PlayerMad_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 10
+        y: 0
+        width: 12
+        height: 24
+      spriteId: 90f748fa58191034db87d2bf796f164e
+    - name: PlayerMad_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 44c66c996b4a01b4ca4b1e24f28b080c
+    - name: PlayerMad_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 783ee9bffd5b47e4c953de759c7685e2
+    - name: PlayerMad_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 10
+        y: 0
+        width: 11
+        height: 24
+      spriteId: 0a99a5883c75a0d4eaf27b8dd10773e8
+    - name: PlayerMad_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 10
+        y: 0
+        width: 11
+        height: 25
+      spriteId: 9b5cf1b3ac0e0a440a6f2480ae6b500f
+    - name: PlayerMad_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 10
+        y: 0
+        width: 9
+        height: 25
+      spriteId: 6393033f5144207409584d30f0d6ad98
+    - name: PlayerMad_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 10
+        y: 0
+        width: 9
+        height: 25
+      spriteId: 0ae0213919294d54a8fc14f6efc4c20e
+    - name: PlayerMad_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 10
+        y: 0
+        width: 9
+        height: 24
+      spriteId: 1c069b6d3ea0be84d82616f20a45b6f4
+    - name: PlayerMad_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 10
+        y: 0
+        width: 9
+        height: 24
+      spriteId: 410d4a99a7f3a8d4296a6aa56eb70f96
+    - name: PlayerMad_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: 93ba56dc9c0b5cf46aeea080daad3489
+    - name: PlayerMad_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 10
+        y: 0
+        width: 10
+        height: 24
+      spriteId: fb6cdd0c95238584c91c4979c01ccc54
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
