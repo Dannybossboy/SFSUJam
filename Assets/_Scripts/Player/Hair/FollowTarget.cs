@@ -12,8 +12,21 @@ public class FollowTarget : MonoBehaviour
 
     public float gravity = .1f;
 
+    PlayerMovement movement;
+
+    public void InitHair(PlayerMovement movement)
+    {
+        this.movement = movement;
+        this.movement.updateHairGravity += SetGravity;
+    }
+
+    private void OnDestroy()
+    {
+        movement.updateHairGravity -= SetGravity;
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = new Vector3(transform.position.x, transform.position.y - gravity, transform.position.z);
 
@@ -26,5 +39,10 @@ public class FollowTarget : MonoBehaviour
         Vector2 newPositionLerped = Vector2.Lerp(limitedDist, target.position, Time.deltaTime * lerpSpeed);
 
         transform.position = newPositionLerped;
+    }
+
+    private void SetGravity(float newGravity)
+    {
+        gravity = newGravity;
     }
 }

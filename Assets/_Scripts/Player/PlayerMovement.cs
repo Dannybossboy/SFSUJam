@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject bubbles;
     public Animator animator;
     public Transform groundPos;
+    public FollowTarget[] hairParts;
 
     [Header("Private")]
     bool isJumping;
@@ -47,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
     Vector2 moveInput;
     Rigidbody2D rb;
 
+    public hairDelegate updateHairGravity;
+    public delegate void hairDelegate(float newGravity);
+
     float coyoteTimer;
 
     // Start is called before the first frame update
@@ -55,6 +59,11 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         rb.gravityScale = defaultGravity;
+
+        for (int i = 0; i < hairParts.Length; i++)
+        {
+            hairParts[i].InitHair(this);
+        }
     }
 
     // Update is called once per frame
@@ -188,11 +197,13 @@ public class PlayerMovement : MonoBehaviour
             source.PlayOneShot(waterSound);
             animator.SetBool("IsGrounded", false);
             animator.SetBool("CanJump", false);
+            updateHairGravity?.Invoke(0f);
         } else
         {
             _InWater = false;
             sr.color = Color.white;
             source.PlayOneShot(waterSound);
+            updateHairGravity?.Invoke(.1f);
         }
     }
 
